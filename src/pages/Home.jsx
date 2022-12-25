@@ -24,8 +24,8 @@ const Home = () => {
   const grandTotal = res.data?.map((data) => data.total);
 
   return (
-    <div className="flex justify-center mt-10">
-      <table className="w-3/4">
+    <div className="flex justify-start lg:justify-center mt-10 w-full overflow-x-scroll h-full lg:overflow-x-hidden">
+      <table>
         <tr>
           <th>S.NO</th>
           <th>NAME OF MATERIAL</th>
